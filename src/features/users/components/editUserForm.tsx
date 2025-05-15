@@ -13,7 +13,7 @@ export function EditUserForm() {
   return (
     <>
       <UserForm userId={id} />
-      {/* <h2 style={{ marginTop: '16px' }}>🚌 Live Bus Tracking</h2> */}
+      <h2 style={{ marginTop: '16px' }}>🚌 Live Bus Tracking</h2>
       {/* <MapContainer
         center={[28.6139, 77.209]}
         zoom={11}
@@ -29,3 +29,4 @@ export function EditUserForm() {
     </>
   )
 }
+
