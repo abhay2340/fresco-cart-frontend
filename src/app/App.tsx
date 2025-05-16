@@ -7,7 +7,7 @@ export default function App() {
   return (
     <>
       <BrowserRouter>
-        <div style={{ backgroundColor: 'blue' }}>asfwefwe</div>
+        <div style={{ backgroundColor: 'red' }}>asfwefwe</div>
         <Routes>
           <Route path="/" element={<UsersPage />} />
         </Routes>
